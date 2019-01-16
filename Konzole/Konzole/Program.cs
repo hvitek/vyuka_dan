@@ -21,9 +21,12 @@ namespace Konzole
             clovekInst2.Jmeno = "Josef";
             clovekInst2.Vaha = 70;
             clovekInst2.Vyska = 170;
-            Clovek kopiecloveka = clovekInst2;
-            
-           
+
+            //kopie cloveka
+            Clovek kopiecloveka = new Clovek();
+            kopiecloveka = clovekInst2;
+
+
             ;
 
         }
